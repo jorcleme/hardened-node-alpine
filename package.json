@@ -1,0 +1,31 @@
+{
+  "name": "hardened-node-alpine",
+  "version": "1.0.0",
+  "description": "A hardened node.js-alpine image",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorcleme/hardened-node-alpine.git"
+  },
+  "keywords": [
+    "node",
+    "alpine",
+    "hardened",
+    "cisco",
+    "small-business",
+    "smb"
+  ],
+  "author": "Jordan Clemens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jorcleme/hardened-node-alpine/issues"
+  },
+  "homepage": "https://github.com/jorcleme/hardened-node-alpine#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "octokit": "^4.0.2"
+  }
+}
